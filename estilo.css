@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+    background-image: linear-gradient(-120deg,
+        rgba(255, 0, 0, 0.427),
+        rgba(184, 200, 157, 0.45))
+        ,url(img/fondo.png);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* este estilo se aplica a todos los h1 que están en la clase hero */
+.hero h1{
+    font-size: 60px;
+    text-shadow: 0 0 15px green;
+    margin-bottom: 20px;
+}
+.hero h2{
+    font-size: 40px;
+    text-shadow: 0 0 15px green;
+}
+.info{
+    background-color: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+}
+.titulo{
+    color:darkblue;
+    text-shadow: 0 0 15px black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parrafo{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    text-shadow: 0 0 6px white;
+}
+
+.contenedor-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+}
+/* repetir desde iconos */
+.card i{
+    font-size: 50px;
+    color: red;
+}
+
+.card:hover{
+    background-color: purple;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.margen-icono{
+    margin-top: 20px;
+}
+
+.boton{
+    background-color: purple;
+    width: 120px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: violet;
+    transition: all 0.5s;
+}
+
+.galeria{
+    background-color: burlywood;
+}
+
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor-galeria img{
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 0 10px black;
+}
+
+.contenedor-galeria img:hover{
+    transform: scaleX(-1);
+    transition: 0.6s;
+}
+
+.footer {
+    background-color: #623f01;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex-basis: 33.33%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.redes-sociales {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.redes-sociales i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.contacto {
+    margin-top: 10px;
+}
+
+.contacto a {
+    color: #d7c8bc;
+    text-decoration: none;
+}
+
+.contacto{
+    background-color: #dfb777;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.input{
+    background: transparent;
+    font-size: 15px;
+    border:0;
+    margin-bottom: 30px;
+    outline: none;
+    border: 2px solid #623f01;
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+
+.input-ancho{
+    width: 45%;
+}
+
+.ancho{
+    width: 96%;
+}
+
+.boton-formulario{
+    background-color: #623f01;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu{
+    background-color: #dfb777;
+    list-style: none;
+    position: fixed;
+    width: 100%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: #2e9a31;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 18px;
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background-color: #026907;
+    color: #dfb777;
+    text-decoration: underline red;
+    transform: scale(1.01);
+    transition: 1s;
+}
